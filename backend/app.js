@@ -19,7 +19,7 @@ const _dirname = path.resolve();
 
 app.use(
     cors({
-       origin: ['http://localhost:5173'],
+       origin: ['https://cloud-based-freelancing-platform.onrender.com'],
       method: ["GET", "POST", "DELETE", "PUT"],
       credentials: true,
     })
